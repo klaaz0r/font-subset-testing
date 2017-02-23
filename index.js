@@ -15,6 +15,14 @@ const text = `
   great!
   are you very fat..?
   `
+
+try {
+  fs.mkdirSync('html')
+  fs.mkdirSync('.tmp')
+  fs.mkdirSync('html/fonts')
+} catch (e) {
+  console.log('folder already exsists')
+}
 //map the fonts to an object for handlebars
 const fontsObj = fonts.map(font => {
   const name = font.replace('.ttf', '')
