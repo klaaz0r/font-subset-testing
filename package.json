@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.0.6"
+    "font-converter": "^1.1.1",
+    "handlebars": "^4.0.6",
+    "subsetty": "0.0.7"
   }
 }
