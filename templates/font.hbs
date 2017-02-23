@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    @font-face {
+        font-family: '{{{subsetFontName}}}';
+        src: url('{{{subsetFontPath}}}') format('woff');
+    }
+
+    @font-face {
+        font-family: '{{{completeFontName}}}';
+        src: url('{{{completeFontPath}}}') format('woff');
+    }
+
+    .subset {
+      font-family: '{{{subsetFontName}}}';
+      font-size: 35px;
+    }
+
+    .complete {
+      font-family: '{{{completeFontName}}}';
+      font-size: 35px;
+    }
+
+    div {
+      background-color: red;
+      width: 400px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>complete font</h1>
+        <p class="complete">{{text}}</p>
+    </div>
+    <div>
+        <h1>subset font</h1>
+        <p class="subset">{{text}}</p>
+       <p class="complete">This Shirewr 2323</p>
+    </div>
+
+</body>
+
+</html>

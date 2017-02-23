@@ -1,0 +1,15 @@
+{
+  "name": "@klaaz0r/font-subsets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js && cd html && python -m SimpleHTTPServer 3000 ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  }
+}
